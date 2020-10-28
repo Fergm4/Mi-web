@@ -96,7 +96,7 @@
                     </ol>
             </ul>
         </section>
-        <form action="">
+        <!-- <form action="">
             <fieldset>
                 <legend>Información del lector</legend>
                 <label for="favbook">
@@ -133,6 +133,35 @@
                     <span>¡Escribe la fecha de tu cumpleños!</span>
                     <input type="datetime-local" id="cumpleaños" name="cumpleaños">
                 </label>
+                <input type="submit">
+            </fieldset>
+        </form> -->
+        <form action="">
+            <fieldset>
+                <legend>Datos</legend>
+                <label for="nombre">
+                    <span>¿Cuál es tu nombre?</span>
+                    <input type="text" name="nombre" id="nombre" autocomplete="name" required>
+                </label>
+                <br><br>
+
+                <label for="correo">
+                    <span>¿Cuál es tu correo?</span>
+                    <input type="email" name="correo" id="correo" autocomplete="email" required>
+                </label>
+                <br><br>
+
+                <label for="pais">
+                    <span>¿En qué país vives?</span>
+                    <input type="text" name="pais" id="pais" autocomplete="country" required>
+                </label>
+                <br><br>
+
+                <label for="cp">
+                    <span>¿Cuál es tu código postal?</span>
+                    <input type="text" name="cp" id="cp" autocomplete="postal-code" required>
+                </label>
+                <br><br>
                 <input type="submit">
             </fieldset>
         </form>
