@@ -4,36 +4,6 @@
     margin: 0;
 }
 
-h1{
-    font-family: sans-serif;
-    color: purple;
-    margin-bottom: 10px;
-}
-
-.title{
-    font-size: 18px;
-    font-family: monospace;
-}
-
-.nav{
-    margin-top: 10px;
-    list-style: none;
-    padding-left: 0px;
-}
-
-.nav li{
-    display: inline-block;
-}
-
-.nav a{
-    color: white;
-    font-family: Century Gothic;
-    background-color: #13a4a4;
-    padding: 10px;
-    border-radius: 10px;
-    text-decoration: none;
-}
-
-.nav .blog{
-    background-color: darkmagenta;
+h2 + p{
+    color: red;
 }
