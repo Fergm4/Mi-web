@@ -4,6 +4,6 @@
     margin: 0;
 }
 
-h2 + p{
+h2 ~ p{
     color: red;
 }
